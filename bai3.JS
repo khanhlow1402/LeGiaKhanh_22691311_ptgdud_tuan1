@@ -17,7 +17,6 @@ function tinhDiemTrungBinh(score1, score2, score3) {
     }
   }
   
-
   var dolphinsScores1 = [96, 108, 89];
   var koalasScores1 = [88, 91, 110];
   
@@ -29,18 +28,18 @@ function tinhDiemTrungBinh(score1, score2, score3) {
   
   var diemToiThieu = 100;
   
-  var dolphinsAvg1 = tinhDiemTrungBinh(dolphinsScores1);
-  var koalasAvg1 = tinhDiemTrungBinh(koalasScores1);
+  var dolphinsAvg1 = tinhDiemTrungBinh(...dolphinsScores1);
+  var koalasAvg1 = tinhDiemTrungBinh(...koalasScores1);
   console.log("Data 1:");
   xacDinhNguoiThang(dolphinsAvg1, koalasAvg1, diemToiThieu);
   
-  var dolphinsAvgBonus1 = tinhDiemTrungBinh(dolphinsScoresBonus1);
-  var koalasAvgBonus1 = tinhDiemTrungBinh(koalasScoresBonus1);
+  var dolphinsAvgBonus1 = tinhDiemTrungBinh(...dolphinsScoresBonus1);
+  var koalasAvgBonus1 = tinhDiemTrungBinh(...koalasScoresBonus1);
   console.log("\nData Bonus 1:");
   xacDinhNguoiThang(dolphinsAvgBonus1, koalasAvgBonus1, diemToiThieu);
   
-  var dolphinsAvgBonus2 = tinhDiemTrungBinh(dolphinsScoresBonus2);
-  var koalasAvgBonus2 = tinhDiemTrungBinh(koalasScoresBonus2);
+  var dolphinsAvgBonus2 = tinhDiemTrungBinh(...dolphinsScoresBonus2);
+  var koalasAvgBonus2 = tinhDiemTrungBinh(...koalasScoresBonus2);
   console.log("\nData Bonus 2:");
   xacDinhNguoiThang(dolphinsAvgBonus2, koalasAvgBonus2, diemToiThieu);
   
